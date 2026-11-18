@@ -1,0 +1,23 @@
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Dependencies and generated build output
+node_modules/
+build/
+dist/
+*.exe
+*.o
+*.obj
+*.dll
+*.pdb
+*.log
+*.zip
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini

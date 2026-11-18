@@ -1,0 +1,153 @@
+{
+  "format": "vertex-studio-project",
+  "version": 3,
+  "name": "Point & line study",
+  "objects": [
+    {
+      "id": "example-7",
+      "name": "Canvas tile",
+      "type": "polygon",
+      "color": "#263f45",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "vertices": [
+        {
+          "x": -0.8,
+          "y": -0.6
+        },
+        {
+          "x": 0.8,
+          "y": -0.6
+        },
+        {
+          "x": 0.8,
+          "y": 0.6
+        },
+        {
+          "x": -0.8,
+          "y": 0.6
+        }
+      ]
+    },
+    {
+      "id": "example-8",
+      "name": "Wide line",
+      "type": "lines",
+      "color": "#edb49a",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "vertices": [
+        {
+          "x": -0.6,
+          "y": -0.4
+        },
+        {
+          "x": 0.6,
+          "y": -0.4
+        }
+      ],
+      "lineWidth": 24
+    },
+    {
+      "id": "example-9",
+      "name": "Mountain path",
+      "type": "line-strip",
+      "color": "#93ddc2",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "vertices": [
+        {
+          "x": -0.6,
+          "y": -0.2
+        },
+        {
+          "x": 0,
+          "y": 0.4
+        },
+        {
+          "x": 0.6,
+          "y": -0.2
+        }
+      ],
+      "lineWidth": 16
+    },
+    {
+      "id": "example-10",
+      "name": "Frame",
+      "type": "line-loop",
+      "color": "#8fa8ed",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "vertices": [
+        {
+          "x": -0.8,
+          "y": -0.6
+        },
+        {
+          "x": 0.8,
+          "y": -0.6
+        },
+        {
+          "x": 0.8,
+          "y": 0.6
+        },
+        {
+          "x": -0.8,
+          "y": 0.6
+        }
+      ],
+      "lineWidth": 5
+    },
+    {
+      "id": "example-11",
+      "name": "Plot points",
+      "type": "points",
+      "color": "#c6a5df",
+      "opacity": 1,
+      "visible": true,
+      "locked": false,
+      "vertices": [
+        {
+          "x": -0.6,
+          "y": -0.2
+        },
+        {
+          "x": 0,
+          "y": 0.4
+        },
+        {
+          "x": 0.6,
+          "y": -0.2
+        }
+      ],
+      "pointSize": 30
+    }
+  ],
+  "groups": [],
+  "layers": [
+    {
+      "kind": "object",
+      "id": "example-7"
+    },
+    {
+      "kind": "object",
+      "id": "example-8"
+    },
+    {
+      "kind": "object",
+      "id": "example-9"
+    },
+    {
+      "kind": "object",
+      "id": "example-10"
+    },
+    {
+      "kind": "object",
+      "id": "example-11"
+    }
+  ]
+}
